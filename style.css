@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://designificados.com/wp-content/uploads/2018/04/paisaje-natural-992x629.jpg?ezimgfmt=ng:webp/ngcb1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabezera{
+
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: cover;
+    width: 50%;
+    border: 3px solid white;
+    background: white;
+
+}
+.cabezera img{
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 50%;
+
+
+}
+@media screen and (max-width:600px) {
+ .cabezera img{
+   text-align: left;
+   display: flex;
+   justify-content: flex-end;
+   height: auto;
+   width:auto;
+   border: 2px solid black;
+   border-radius: 300px;
+
+ }
+}
+
+
+.relleno{
+  background-color: #fafafa;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  padding: cover;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: cover;
+  width: 50%;
+  border: 3px solid white;
+  background: white;
+}
