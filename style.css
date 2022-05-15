@@ -19,8 +19,11 @@ body{
     border: 3px solid white;
     background: white;
 
-}
-.cabezera img{
+} 
+
+
+.cabezera > img{
+  margin-left: 70%;
   height: 150px;
   width: 150px;
   border: 2px solid black;
@@ -28,6 +31,7 @@ body{
 
 
 }
+
 @media screen and (max-width:600px) {
  .cabezera img{
    text-align: left;
