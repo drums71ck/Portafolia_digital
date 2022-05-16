@@ -19,7 +19,7 @@ body{
     border: 3px solid white;
     background: white;
 
-} 
+}
 
 
 .cabezera > img{
@@ -59,4 +59,24 @@ body{
   width: 50%;
   border: 3px solid white;
   background: white;
+}
+.redes::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.redes{
+  background-color: #fafafa;
+  height: cover;
+  width: 50%;
+  border-radius: 2px solid white;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.social  img {
+  height: 90px;
+  float: left;
+  padding-right: 5px;
 }
