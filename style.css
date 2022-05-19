@@ -3,6 +3,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+@font-face {
+  font-family: urban;
+  font-style: normal;
+  src: url(urban.otf);
+}
+ @font-face {
+   font-family: pickme;
+   src: url(pickme.TTF);
+ }
+
+ h2{
+  font-family: pickme;
+ }
+ h3{
+  font-family: pickme;
+ }
 .cabezera{
 
     background-color: #fafafa;
@@ -13,17 +29,21 @@ body{
     border: 2px solid white;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     height: cover;
     width: 50%;
     border: 3px solid white;
     background: white;
-
+    
+}
+.cabezera > p{
+  margin-left: 10%;
 }
 
 
 .cabezera > img{
-  margin-left: 70%;
+  margin-left: 15%;
   height: 150px;
   width: 150px;
   border: 2px solid black;
@@ -47,9 +67,10 @@ body{
 
 
 .relleno{
+  margin: auto;
   background-color: #fafafa;
   margin-top: 2rem;
-  margin-left: 4rem;
+  margin-left: auto;
   padding: cover;
   border: 2px solid white;
   border-radius: 20px;
@@ -66,17 +87,19 @@ body{
   display: table;
 }
 .redes{
+  margin: auto;
   background-color: #fafafa;
   height: cover;
   width: 50%;
   border-radius: 2px solid white;
   border-radius: 20px;
-  margin-top: 2rem;
-  margin-left: 4rem;
+  margin-top: auto;
+  margin-left: auto;
 }
 
 .social  img {
   height: 90px;
   float: left;
-  padding-right: 5px;
+  padding-right: 5%;
+
 }
