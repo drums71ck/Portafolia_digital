@@ -35,7 +35,7 @@ body{
     width: 50%;
     border: 3px solid white;
     background: white;
-    
+
 }
 .cabezera > p{
   margin-left: 10%;
@@ -97,9 +97,24 @@ body{
   margin-left: auto;
 }
 
-.social  img {
+.social img {
   height: 90px;
   float: left;
   padding-right: 5%;
 
+}
+.projectos {
+  margin: auto;
+  background-color: #fafafa;
+  margin-top: 2rem;
+  margin-left: auto;
+  padding: cover;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: cover;
+  width: 50%;
+  border: 3px solid white;
+  background: white;
 }
