@@ -80,6 +80,7 @@ body{
   width: 50%;
   border: 3px solid white;
   background: white;
+  padding-left: 1rem;
 }
 .redes::after{
   content: "";
@@ -95,6 +96,7 @@ body{
   border-radius: 20px;
   margin-top: auto;
   margin-left: auto;
+  padding-left: 1rem;
 }
 
 .social img {
@@ -109,6 +111,23 @@ body{
   margin-top: 2rem;
   margin-left: auto;
   padding: cover;
+  padding-left: 1rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: cover;
+  width: 50%;
+  border: 3px solid white;
+  background: white;
+}
+.Formacion{
+  margin: auto;
+  background-color: #fafafa;
+  margin-top: 2rem;
+  margin-left: auto;
+  padding: cover;
+  padding-left: 1rem;
   border: 2px solid white;
   border-radius: 20px;
   display: flex;
