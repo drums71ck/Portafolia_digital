@@ -1,6 +1,7 @@
 body{
     background-image: url(https://designificados.com/wp-content/uploads/2018/04/paisaje-natural-992x629.jpg?ezimgfmt=ng:webp/ngcb1);
     background-repeat: no-repeat;
+    background-color: bisque;
     background-size: cover;
 }
 @font-face {
